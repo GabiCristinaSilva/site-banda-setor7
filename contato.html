@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Vamos criar o seu evento | Banda Setor7</title>
+
+  <meta
+    name="description"
+    content="Fale com a Banda Setor7 e monte uma experiência musical sob medida para casamentos, eventos corporativos, formaturas, aniversários e outras celebrações."
+  >
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/contato.css">
+</head>
+
+<body class="contact-page">
+
+  <!-- =====================================================
+       CABEÇALHO
+       ===================================================== -->
+
+  <header class="site-header">
+
+    <div class="container">
+
+      <a class="brand" href="index.html">
+        <img
+          src="assets/img/logo.png"
+          alt="Logo Banda Setor 7"
+        >
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        onclick="toggleMenu()"
+      >
+        Menu
+      </button>
+
+      <nav class="nav-links">
+
+        <a href="index.html">Home</a>
+
+        <a href="sobre.html">Sobre</a>
+
+        <a href="pacotes.html">Pacotes</a>
+
+        <a href="repertorio.html">Repertório</a>
+
+        <a class="active" href="contato.html">Contato</a>
+
+        <a href="contato.html#formulario" class="btn">Solicitar orçamento</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <!-- =====================================================
+       CONTEÚDO
+       ===================================================== -->
+
+  <main>
+
+
+    <!-- =====================================================
+         HERO
+         ===================================================== -->
+
+    <section class="contact-hero">
+
+      <div class="container">
+
+        <span class="eyebrow">
+          VAMOS REALIZAR O SEU EVENTO!
+        </span>
+
+        <h1
+          class="section-title"
+          style="max-width: 920px; margin-top:18px;"
+        >
+          Você planeja o momento...<br>
+          A Setor7 faz a trilha sonora
+        </h1>
+
+        <p
+          class="lead"
+          style="max-width: 760px;"
+        >
+          Conte para a nossa equipe como será o seu evento. Vamos entender suas necessidades, conhecer o que você imaginou e construir uma proposta sob medida — do repertório à estrutura — para que tudo faça sentido para a sua celebração.
+        </p>
+
+        <p class="contact-highlight">
+          Porque cada evento tem uma história. E a música certa ajuda a contá-la.
+        </p>
+
+      </div>
+
+      </section>  
+
+    <!-- =====================================================
+     FORMULÁRIO
+     ===================================================== -->
+
+<section class="section contact-form-section" id="formulario-contato">
+
+  <div class="container contact-form-container">
+
+    <div class="contact-form-heading">
+
+      <span class="eyebrow">
+        A REALIZAÇÃO DA SUA FESTA COMEÇA AQUI!
+      </span>
+
+      <h2 class="section-title">
+        Vamos entender o seu evento?
+      </h2>
+
+      <p class="lead">
+        Preencha as informações abaixo e nossa equipe entrará em contato para montar a melhor proposta para o seu evento.
+
+      </p>
+
+    </div>
+
+
+    <form
+      id="formulario"
+      class="form-panel contact-form-panel"
+      onsubmit="sendWhatsApp(event)"
+    >
+
+      <!-- LINHA 1 -->
+
+      <div class="form-field">
+        <label for="nome">
+          Nome do solicitante <span>*</span>
+        </label>
+
+        <input
+          class="input"
+          id="nome"
+          type="text"
+          placeholder=""
+          required
+        >
+      </div>
+
+
+      <div class="form-field">
+        <label for="email">
+          E-mail do solicitante <span>*</span>
+        </label>
+
+        <input
+          class="input"
+          id="email"
+          type="email"
+          placeholder=""
+          required
+        >
+      </div>
+
+
+      <!-- LINHA 2 -->
+
+      <div class="form-field">
+        <label for="telefone">
+          Telefone do solicitante <span>*</span>
+        </label>
+
+        <input
+          class="input"
+          id="telefone"
+          type="tel"
+          placeholder="(00) 00000-0000"
+          required
+        >
+      </div>
+
+
+      <div class="form-field">
+        <label for="quantidade">
+          Quantidade de pessoas
+        </label>
+
+        <input
+          class="input"
+          id="quantidade"
+          type="number"
+          min="1"
+          placeholder=""
+        >
+      </div>
+
+
+      <!-- LINHA 3 -->
+
+      <div class="form-field">
+        <label for="data">
+          Data provável do evento
+        </label>
+
+        <input
+          class="input"
+          id="data"
+          type="date"
+        >
+      </div>
+
+
+      <div class="form-field">
+        <label for="horario">
+          Horário previsto de início
+        </label>
+
+        <input
+          class="input"
+          id="horario"
+          type="time"
+        >
+      </div>
+
+
+      <!-- LINHA 4 -->
+
+      <div class="form-field">
+        <label for="duracao">
+          Tempo de apresentação da banda
+        </label>
+
+        <select
+          class="select"
+          id="duracao"
+        >
+          <option value="">Selecione</option>
+          <option value="02 horas">02 horas</option>
+          <option value="03 horas">03 horas</option>
+          <option value="04 horas">04 horas</option>
+        </select>
+      </div>
+
+
+      <div class="form-field">
+        <label for="local">
+          Local do evento
+        </label>
+
+        <input
+          class="input"
+          id="local"
+          type="text"
+        >
+      </div>
+
+
+      <!-- LINHA 5 -->
+
+      <div class="form-field">
+        <label for="cidade">
+          Cidade do evento
+        </label>
+
+        <input
+          class="input"
+          id="cidade"
+          type="text"
+        >
+      </div>
+
+
+      <div class="form-field">
+        <label for="estado">
+          Estado do evento
+        </label>
+
+        <select
+          class="select"
+          id="estado"
+        >
+          <option value="">Selecione</option>
+          <option>AC</option>
+          <option>AL</option>
+          <option>AP</option>
+          <option>AM</option>
+          <option>BA</option>
+          <option>CE</option>
+          <option>DF</option>
+          <option>ES</option>
+          <option>GO</option>
+          <option>MA</option>
+          <option>MT</option>
+          <option>MS</option>
+          <option>MG</option>
+          <option>PA</option>
+          <option>PB</option>
+          <option>PR</option>
+          <option>PE</option>
+          <option>PI</option>
+          <option>RJ</option>
+          <option>RN</option>
+          <option>RS</option>
+          <option>RO</option>
+          <option>RR</option>
+          <option>SC</option>
+          <option>SP</option>
+          <option>SE</option>
+          <option>TO</option>
+        </select>
+      </div>
+
+
+      <!-- SERVIÇOS -->
+
+      <div class="services-field">
+
+        <label class="services-title">
+          Além da banda, quais outros serviços incluir no orçamento?
+        </label>
+
+
+        <div class="services-grid">
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="DJ"
+            >
+            <span class="service-check"></span>
+            <span>DJ</span>
+          </label>
+
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Tela de Led"
+            >
+            <span class="service-check"></span>
+            <span>Painel de Led</span>
+          </label>
+
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Pista de Led"
+            >
+            <span class="service-check"></span>
+            <span>Pista de Led</span>
+          </label>
+
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Plataforma 360°"
+            >
+            <span class="service-check"></span>
+            <span>Plataforma 360°</span>
+          </label>
+
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Totem fotográfico"
+            >
+            <span class="service-check"></span>
+            <span>Totem fotográfico</span>
+          </label>
+
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Sonorização e Iluminação"
+            >
+            <span class="service-check"></span>
+            <span>Sonorização e Iluminação</span>
+          </label>
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Cabine Fotográfica"
+            >
+            <span class="service-check"></span>
+            <span>Cabine Fotográfica</span>
+          </label>
+
+          <label class="service-option">
+            <input
+              type="checkbox"
+              name="servicos"
+              value="Outros"
+            >
+            <span class="service-check"></span>
+            <span>Outros</span>
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <!-- BOTÃO -->
+
+      <div class="contact-form-actions">
+
+        <button
+          class="btn"
+          type="submit"
+        >
+          Quero receber minha proposta
+        </button>
+
+      </div>
+
+    </form>
+
+  </div>
+
+</section>
+
+  </main>
+
+
+  <!-- =====================================================
+       WHATSAPP FLUTUANTE
+       ===================================================== -->
+
+  <div class="whatsapp-float">
+
+    <button
+      class="whatsapp-button"
+      type="button"
+      onclick="toggleWhats()"
+    >
+
+      <img
+        src="assets/img/whatsapp.png"
+        alt="Abrir opções de WhatsApp"
+      >
+
+    </button>
+
+
+    <div
+      class="whatsapp-menu"
+      id="whatsappMenu"
+    >
+
+      <a
+        target="_blank"
+        href="https://wa.me/5548984363683?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20um%20evento%20corporativo."
+      >
+        Eventos corporativos
+      </a>
+
+      <a
+        target="_blank"
+        href="https://wa.me/5554996781130?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20um%20casamento."
+      >
+        Casamentos
+      </a>
+
+      <a
+        target="_blank"
+        href="https://wa.me/5548984436171?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20um%20aniversário."
+      >
+        Aniversários
+      </a>
+
+      <a
+        target="_blank"
+        href="https://wa.me/5548984436171?text=Olá!%20Gostaria%20de%20mais%20informações%20sobre%20uma%20formatura."
+      >
+        Formaturas
+      </a>
+
+      <a
+        target="_blank"
+        href="https://wa.me/5548984363683?text=Olá!%20Gostaria%20de%20conhecer%20as%20opções%20da%20Banda%20Setor%207%20para%20meu%20evento."
+      >
+        Outros eventos
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       SCRIPTS
+       ===================================================== -->
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-social" aria-label="Redes sociais da Banda Setor7">
+
+      <a
+        href="https://www.instagram.com/bandasetor7/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram da Banda Setor7"
+      >
+        <img src="assets/img/instagram.png" alt="Instagram">
+      </a>
+
+      <a
+        href="https://www.youtube.com/@bandasetor7"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="YouTube da Banda Setor7"
+      >
+        <img src="assets/img/youtube.png" alt="YouTube">
+      </a>
+
+      <a
+        href="https://www.tiktok.com/@bandasetor7"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="TikTok da Banda Setor7"
+      >
+        <img src="assets/img/tiktok.png" alt="TikTok">
+      </a>
+
+    </div>
+
+    <span>
+      © 2026 Banda Setor7 • Todos os direitos reservados.
+    </span>
+
+    <span class="footer-links">
+
+      <a href="privacidade.html">
+        Política de Privacidade
+      </a>
+
+    </span>
+
+    <span class="footer-credit">
+      <a
+        href="https://devcrsweb.lovable.app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        CR's Web - Desenvolvimento de Sites
+      </a>
+    </span>
+
+  </div>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+
+  <script>
+
+function sendWhatsApp(event) {
+
+    event.preventDefault();
+
+
+    const nome =
+        document.getElementById('nome').value.trim();
+
+
+    const email =
+        document.getElementById('email').value.trim();
+
+
+    const telefone =
+        document.getElementById('telefone').value.trim();
+
+
+    const quantidade =
+        document.getElementById('quantidade').value.trim();
+
+
+    const data =
+        document.getElementById('data').value;
+
+
+    const horario =
+        document.getElementById('horario').value;
+
+
+    const duracao =
+        document.getElementById('duracao').value ||
+        'Não informado';
+
+
+    const local =
+        document.getElementById('local').value.trim();
+
+
+    const cidade =
+        document.getElementById('cidade').value.trim();
+
+
+    const estado =
+        document.getElementById('estado').value ||
+        'Não informado';
+
+
+    const servicos =
+        Array
+            .from(
+                document.querySelectorAll(
+                    'input[name="servicos"]:checked'
+                )
+            )
+            .map(item => item.value)
+            .join(', ');
+
+
+    const texto =
+
+        `Olá! Meu nome é ${nome}.\n\n` +
+
+        `Gostaria de receber uma proposta da Banda Setor7.\n\n` +
+
+        `E-mail: ${email}\n` +
+
+        `Telefone: ${telefone}\n` +
+
+        `Quantidade de pessoas: ${quantidade || 'Não informado'}\n` +
+
+        `Data provável do evento: ${data || 'Não informado'}\n` +
+
+        `Horário previsto: ${horario || 'Não informado'}\n` +
+
+        `Tempo de apresentação: ${duracao}\n` +
+
+        `Local do evento: ${local || 'Não informado'}\n` +
+
+        `Cidade: ${cidade || 'Não informado'}\n` +
+
+        `Estado: ${estado}\n` +
+
+        `Serviços adicionais: ${servicos || 'Nenhum informado'}`;
+
+
+    window.open(
+        `https://wa.me/5548984363683?text=${encodeURIComponent(texto)}`,
+        '_blank'
+    );
+
+}
+
+</script>
+
+</body>
+</html>

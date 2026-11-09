@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pacotes | Banda Setor7</title>
+  <meta name="description" content="Conheça os pacotes Diamond, Gold, Premium e Standard da Banda Setor7 para casamentos, eventos corporativos, aniversários e formaturas.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/pacotes.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html"><img src="assets/img/logo.png" alt="Logo Banda Setor 7"></a>
+      <button class="nav-toggle" type="button" onclick="toggleMenu()">Menu</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="sobre.html">Sobre</a>
+        <a class="active" href="pacotes.html">Pacotes</a>
+        <a href="repertorio.html">Repertório</a>
+        <a href="contato.html">Contato</a>
+        <a href="contato.html#formulario" class="btn">Solicitar orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="packages-hero">
+
+  <!-- IMAGEM DE FUNDO -->
+  <img
+    class="packages-hero-bg"
+    src="assets/img/banner-pacote.png"
+    alt="Evento com iluminação e show da Banda Setor7"
+  >
+
+  <!-- ESCURECIMENTO DA IMAGEM -->
+  <div class="packages-hero-overlay"></div>
+
+
+  <!-- CONTEÚDO -->
+  <div class="container packages-hero-content">
+
+    <!-- TEXTO À ESQUERDA -->
+    <div class="packages-hero-text">
+
+      <span class="eyebrow">
+        Escolha o formato ideal
+      </span>
+
+      <h1>
+        O pacote certo para transformar seu evento em um grande show
+      </h1>
+
+      <p>
+        Escolha a experiência que combina com o seu evento.
+      </p>
+
+    </div>
+
+
+    <!-- CARD À DIREITA -->
+    <aside class="packages-hero-card">
+
+      <h3>
+        Compare rápido
+      </h3>
+
+      <p>
+        Duração, formação, estrutura e extras organizados para facilitar
+        sua decisão e encontrar a experiência ideal para o seu evento.
+      </p>
+
+      <div class="packages-hero-card-line"></div>
+
+    
+    </aside>
+
+  </div>
+
+</section>
+
+    <section class="section">
+      <div class="container">
+        <div class="package-grid">
+      
+    <!-- =====================================================
+         DIAMOND
+         ===================================================== -->
+
+    <article class="card package-card featured">
+
+        <span class="tag">Experiência completa</span>
+
+        <h3>Diamond</h3>
+
+        <p>
+            A experiência mais completa da Setor7, com banda,
+            estrutura e recursos pensados para grandes celebrações
+            que pedem impacto, energia e uma entrega memorável.
+        </p>
+
+        <ul class="list-clean">
+            <li>Banda</li>
+            <li>Sonorização profissional</li>
+            <li>Iluminação completa</li>
+            <li>Painel de LED</li>
+            </ul>
+
+        <div class="actions">
+            <button
+                type="button"
+                class="btn package-budget-btn"
+                data-package="Diamond"
+                onclick="openBudgetModal('Diamond')"
+            >
+                Pedir orçamento
+            </button>
+        </div>
+
+    </article>
+
+
+    <!-- =====================================================
+         GOLD
+         ===================================================== -->
+
+    <article class="card package-card">
+
+        <span class="tag">Equilíbrio</span>
+
+        <h3>Gold</h3>
+
+        <p>
+            Uma combinação equilibrada entre estrutura, duração
+            e experiência. Ideal para eventos que querem uma banda
+            completa e muita energia na pista.
+        </p>
+
+        <ul class="list-clean">
+            <li>Banda</li>
+            <li>Sonorização profissional</li>
+            <li>Iluminação completa</li>
+        </ul>
+
+        <div class="actions">
+            <button
+                type="button"
+                class="btn package-budget-btn"
+                data-package="Gold"
+                onclick="openBudgetModal('Gold')"
+            >
+                Pedir orçamento
+            </button>
+        </div>
+
+    </article>
+
+
+    <!-- =====================================================
+         PREMIUM
+         ===================================================== -->
+
+    <article class="card package-card">
+
+        <span class="tag">Versátil</span>
+
+        <h3>Premium</h3>
+
+        <p>
+            A escolha ideal para quem busca a energia da Setor7
+            com uma estrutura mais objetiva, sem abrir mão da qualidade.
+        </p>
+
+        <ul class="list-clean">
+            <li>Somente Banda</li>
+        </ul>
+
+        <div class="actions">
+            <button
+                type="button"
+                class="btn package-budget-btn"
+                data-package="Premium"
+                onclick="openBudgetModal('Premium')"
+            >
+                Pedir orçamento
+            </button>
+        </div>
+
+    </article>
+
+
+    <!-- =====================================================
+         PERSONALITÉ
+         ===================================================== -->
+
+    <article class="card package-card">
+
+        <span class="tag">Personalize o seu</span>
+
+        <h3>Personalité</h3>
+
+        <p>
+            Seu evento, do seu jeito. Criamos uma proposta personalizada
+            combinando os serviços, estrutura e experiências que fazem
+            sentido para você.
+        </p>
+
+        <ul class="list-clean">
+            <li>Escolha os serviços</li>
+            <li>Monte sua experiência</li>
+        </ul>
+
+        <div class="actions">
+            <button
+                type="button"
+                class="btn package-budget-btn"
+                data-package="Personalité"
+                onclick="openBudgetModal('Personalité')"
+            >
+                Pedir orçamento
+            </button>
+        </div>
+
+    </article>
+
+</div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-band">
+        <span class="eyebrow">Solicite seu orçamento</span>
+        <h2 class="section-title">A festa começa quando a Setor7 sobe ao palco.</h2>
+        <p class="lead">Pop, rock, sertanejo, axé, pagode, samba e muito mais. Um repertório versátil, músicos experientes e uma entrega pensada para manter seu evento vivo do começo ao fim.</p>
+        <div class="button-row">
+          <a class="btn" href="contato.html">Falar com a equipe</a>
+          <a class="btn-outline" href="repertorio.html">Ver repertório</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="whatsapp-float">
+    <button class="whatsapp-button" type="button" onclick="toggleWhats()"><img src="assets/img/whatsapp.png" alt="Abrir contatos do WhatsApp"></button>
+    <div class="whatsapp-menu" id="whatsappMenu">
+      <a target="_blank" href="https://wa.me/5548984363683?text=Olá%20gostaria%20de%20mais%20informações%20para%20evento%20corporativo.">Eventos corporativos</a>
+      <a target="_blank" href="https://wa.me/5554996781130?text=Olá%20gostaria%20de%20mais%20informações%20para%20casamento.">Casamentos</a>
+      <a target="_blank" href="https://wa.me/5548984436171?text=Olá%20gostaria%20de%20mais%20informações%20para%20aniversário.">Aniversários</a>
+      <a target="_blank" href="https://wa.me/5548984436171?text=Olá%20gostaria%20de%20mais%20informações%20para%20formatura.">Formaturas</a>
+      <a target="_blank" href="https://wa.me/5548984363683?text=Olá%20gostaria%20de%20mais%20informações%20sobre%20banda.">Outros eventos</a>
+    </div>
+  </div>
+
+
+<!-- =====================================================
+     POPUP DE ORÇAMENTO
+     ===================================================== -->
+
+<div
+    class="budget-modal"
+    id="budgetModal"
+    aria-hidden="true"
+>
+
+    <div class="budget-modal-overlay" onclick="closeBudgetModal()"></div>
+
+
+    <div
+        class="budget-modal-box"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="budgetModalTitle"
+    >
+
+        <button
+            type="button"
+            class="budget-modal-close"
+            onclick="closeBudgetModal()"
+            aria-label="Fechar"
+        >
+            ×
+        </button>
+
+
+        <div class="budget-modal-header">
+
+            <span class="eyebrow">
+                Solicite seu orçamento
+            </span>
+
+            <h2 id="budgetModalTitle">
+                Vamos criar seu evento?
+            </h2>
+
+            <p id="budgetModalSubtitle">
+                Preencha seus dados para receber uma proposta.
+            </p>
+
+        </div>
+
+
+        <form id="budgetForm" onsubmit="sendBudgetWhatsApp(event)">
+
+            <input
+                type="hidden"
+                id="selectedPackage"
+            >
+
+
+            <div class="budget-form-grid">
+
+                <!-- NOME -->
+
+                <div class="budget-field">
+
+                    <label for="budgetName">
+                        Nome <span>*</span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="budgetName"
+                        placeholder="Seu nome"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- TELEFONE -->
+
+                <div class="budget-field">
+
+                    <label for="budgetPhone">
+                        Telefone <span>*</span>
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="budgetPhone"
+                        placeholder="(00) 00000-0000"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- DATA -->
+
+                <div class="budget-field">
+
+                    <label for="budgetDate">
+                        Data do evento <span>*</span>
+                    </label>
+
+                    <input
+                        type="date"
+                        id="budgetDate"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- CIDADE / UF -->
+
+                <div class="budget-field">
+
+                    <label for="budgetCity">
+                        Cidade / UF <span>*</span>
+                    </label>
+
+                    <input
+                        type="text"
+                        id="budgetCity"
+                        placeholder="Ex.: Florianópolis / SC"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- DURAÇÃO -->
+
+                <div class="budget-field budget-field-full">
+
+                    <label for="budgetDuration">
+                        Duração do evento <span>*</span>
+                    </label>
+
+                    <select
+                        id="budgetDuration"
+                        required
+                    >
+                        <option value="">
+                            Selecione a duração
+                        </option>
+
+                        <option value="02 horas">
+                            02 horas
+                        </option>
+
+                        <option value="03 horas">
+                            03 horas
+                        </option>
+                    </select>
+
+                </div>
+
+
+                <!-- SERVIÇOS PERSONALITÉ -->
+
+                <div
+                    class="budget-services"
+                    id="personaliteServices"
+                >
+
+                    <div class="budget-services-title">
+                        Além da banda selecione abaixo quais serviços personalizados deseja incluir no seu orçamento.
+                    </div>
+
+
+                    <div class="budget-services-grid">
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Sonorização profissional"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Sonorização profissional
+                            </span>
+
+                        </label>
+
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Iluminação completa"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Iluminação completa
+                            </span>
+
+                        </label>
+
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Painel de LED"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Painel de LED
+                            </span>
+
+                        </label>
+
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Pista de LED"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Pista de LED
+                            </span>
+
+                        </label>
+
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="DJ"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                DJ
+                            </span>
+
+                        </label>
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Totem Fotográfico"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Totem Fotográfico
+                            </span>
+
+                        </label>
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Plataforma 360°"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Plataforma 360°
+                            </span>
+
+                        </label>
+
+                        <label class="budget-service">
+
+                            <input
+                                type="checkbox"
+                                name="personaliteService"
+                                value="Cabine Fotográfica"
+                            >
+
+                            <span class="custom-check"></span>
+
+                            <span>
+                                Cabine Fotográfica
+                            </span>
+
+                        </label>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <button
+                type="submit"
+                class="whatsapp-budget-btn"
+            >
+                <span>◉</span>
+                Envie pelo WhatsApp
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-social" aria-label="Redes sociais da Banda Setor7">
+
+      <a
+        href="https://www.instagram.com/bandasetor7/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Instagram da Banda Setor7"
+      >
+        <img src="assets/img/instagram.png" alt="Instagram">
+      </a>
+
+      <a
+        href="https://www.youtube.com/@bandasetor7"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="YouTube da Banda Setor7"
+      >
+        <img src="assets/img/youtube.png" alt="YouTube">
+      </a>
+
+      <a
+        href="https://www.tiktok.com/@bandasetor7"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="TikTok da Banda Setor7"
+      >
+        <img src="assets/img/tiktok.png" alt="TikTok">
+      </a>
+
+    </div>
+
+    <span>
+      © 2026 Banda Setor7 • Todos os direitos reservados.
+    </span>
+
+    <span class="footer-links">
+
+      <a href="privacidade.html">
+        Política de Privacidade
+      </a>
+
+    </span>
+
+    <span class="footer-credit">
+      <a
+        href="https://devcrsweb.lovable.app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        CR's Web - Desenvolvimento de Sites
+      </a>
+    </span>
+
+  </div>
+</footer>
+
+  <script src="assets/js/main.js"></script>
+
+<script>
+
+/* =====================================================
+   MODAL DE ORÇAMENTO
+   ===================================================== */
+
+function openBudgetModal(packageName) {
+
+    const modal =
+        document.getElementById('budgetModal');
+
+    const selectedPackage =
+        document.getElementById('selectedPackage');
+
+    const title =
+        document.getElementById('budgetModalTitle');
+
+    const subtitle =
+        document.getElementById('budgetModalSubtitle');
+
+    const services =
+        document.getElementById('personaliteServices');
+
+
+    selectedPackage.value = packageName;
+
+
+    title.textContent =
+        `Orçamento ${packageName}`;
+
+
+    subtitle.textContent =
+        packageName === 'Personalité'
+            ? 'Personalize sua experiência e conte para a gente o que você deseja.'
+            : `Preencha os dados para solicitar seu orçamento ${packageName}.`;
+
+
+    /*
+       Serviços extras aparecem
+       SOMENTE no Personalité
+    */
+
+    if (packageName === 'Personalité') {
+
+        services.classList.add('active');
+
+    } else {
+
+        services.classList.remove('active');
+
+
+        document
+            .querySelectorAll(
+                'input[name="personaliteService"]'
+            )
+            .forEach(input => {
+
+                input.checked = false;
+
+            });
+
+    }
+
+
+    modal.classList.add('active');
+
+    modal.setAttribute(
+        'aria-hidden',
+        'false'
+    );
+
+
+    document.body.style.overflow = 'hidden';
+
+
+    setTimeout(() => {
+
+        document
+            .getElementById('budgetName')
+            .focus();
+
+    }, 150);
+
+}
+
+
+/* =====================================================
+   FECHAR
+   ===================================================== */
+
+function closeBudgetModal() {
+
+    const modal =
+        document.getElementById('budgetModal');
+
+
+    modal.classList.remove('active');
+
+    modal.setAttribute(
+        'aria-hidden',
+        'true'
+    );
+
+
+    document.body.style.overflow = '';
+
+
+    document
+        .getElementById('budgetForm')
+        .reset();
+
+
+    document
+        .getElementById('personaliteServices')
+        .classList.remove('active');
+
+}
+
+
+/* =====================================================
+   ESC
+   ===================================================== */
+
+document.addEventListener(
+    'keydown',
+    function(event) {
+
+        if (
+            event.key === 'Escape'
+        ) {
+
+            closeBudgetModal();
+
+        }
+
+    }
+);
+
+
+/* =====================================================
+   ENVIAR WHATSAPP
+   ===================================================== */
+
+function sendBudgetWhatsApp(event) {
+
+    event.preventDefault();
+
+
+    const packageName =
+        document
+            .getElementById('selectedPackage')
+            .value;
+
+
+    const name =
+        document
+            .getElementById('budgetName')
+            .value
+            .trim();
+
+
+    const phone =
+        document
+            .getElementById('budgetPhone')
+            .value
+            .trim();
+
+
+    const date =
+        document
+            .getElementById('budgetDate')
+            .value;
+
+
+    const city =
+        document
+            .getElementById('budgetCity')
+            .value
+            .trim();
+
+
+    const duration =
+        document
+            .getElementById('budgetDuration')
+            .value;
+
+
+    /*
+       Pega os serviços somente
+       quando for Personalité
+    */
+
+    let services = [];
+
+    if (packageName === 'Personalité') {
+
+        services =
+            Array
+                .from(
+                    document.querySelectorAll(
+                        'input[name="personaliteService"]:checked'
+                    )
+                )
+                .map(
+                    item => item.value
+                );
+
+    }
+
+
+    let message =
+
+        `Olá! Gostaria de solicitar um orçamento da Banda Setor7.\n\n` +
+
+        `Modalidade: ${packageName}\n` +
+
+        `Nome: ${name}\n` +
+
+        `Telefone: ${phone}\n` +
+
+        `Data do evento: ${date}\n` +
+
+        `Cidade / UF: ${city}\n` +
+
+        `Duração: ${duration}`;
+
+
+    if (packageName === 'Personalité') {
+
+        message +=
+
+            `\n\nServiços personalizados:\n` +
+
+            (
+                services.length
+                    ? services
+                        .map(
+                            service => `• ${service}`
+                        )
+                        .join('\n')
+
+                    : 'Nenhum serviço adicional selecionado.'
+            );
+
+    }
+
+
+    const whatsappNumber =
+        '5548984363683';
+
+
+    const whatsappUrl =
+        `https://wa.me/${whatsappNumber}?text=${
+            encodeURIComponent(message)
+        }`;
+
+
+    window.open(
+        whatsappUrl,
+        '_blank'
+    );
+
+
+    closeBudgetModal();
+
+}
+
+</script>
+
+
+</body>
+
+
+
+</html>

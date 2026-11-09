@@ -1,0 +1,56 @@
+# ===== Sistema operacional =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ===== Editores / IDEs =====
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# ===== Logs e temporários =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ===== Dependências (caso o projeto evolua) =====
+node_modules/
+vendor/
+
+# ===== Build / dist =====
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# ===== Arquivos compactados e backups locais =====
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# ===== Segredos e variáveis de ambiente (NUNCA versionar) =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== Configurações locais do Git =====
+.git/
